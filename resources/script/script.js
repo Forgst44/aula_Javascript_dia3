@@ -150,18 +150,26 @@ else if(idade > 0 && idade < 12){
     case (resultado2 < 18.5) : {
         console.log("peso normal")
     }
+    break
     case (resultado2 > 18.5 && resultado2 < 29.9) : {
         console.log("excesso de peso")
     }
+    break
     case (resultado2 > 29.9 && resultado2 < 34.9) : {
         console.log("obesidade classe I ")
     }
+    break
     case (resultado2 > 35 && resultado2 < 39.9) : {
         console.log("obesidade classe II ")
     }
+    break
     case (resultado2 > 40) : {
         console.log("obesidade classe III ")
     }
+    break
+    default:
+        console.log("número invalido")
+        break
 
 }
 
